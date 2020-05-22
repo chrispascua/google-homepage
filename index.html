@@ -2,6 +2,9 @@
 <html>
 <body>
     <style>
+
+        body {font-family: Arial, Helvetica, sans-serif;}
+        
         li {display: inline;
             margin: 10px;}
 
@@ -10,15 +13,28 @@
             list-style-type: none;
            }
      
-        
-        .buttons {
-           display: grid;
-            grid-template-columns: 200px 200px;
+        footer {position:absolute;
+        width: 100%;
+        bottom: 0;}
+
+        input {border-radius: 40px;
+        width: 450px;
+        height: 40px;}
+
+
+        button {
+            padding: 10px 20px;
+            border-radius: 5px;
+            text: opacity(0.5);
+           
         }
 
         .logo {
             justify-items: center;
         }
+
+        #text {opacity: 1;
+        color: rgba(0, 0, 0, 0.75);}
     </style>
 
     <title>Google</title>
@@ -44,9 +60,20 @@
 </div>
 <br>
 <input type="text" required>
-    <div id="buttons">
-<form><button type="submit">Google Search</button>
-    <button type="submit">I'm Feeling Lucky</button></form>
+    <div id="buttons"><br>
+<form><button type="submit"><div id="text">Google Search</div></button>
+    <button type="submit"><div id="text">I'm Feeling Lucky</div></button></form>
     </div></center>
+
+<br><br><br><br><br><br>
+
+    <footer>
+        <ul><li>Advertising</li>
+        <li>Business
+        </li>
+    <li>How Search Works</li></ul>
+
+
+    </footer>
 </body>
 </html>
