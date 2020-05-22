@@ -1,0 +1,1 @@
+This is a recreation of the google webpage. By the end of this project I will have learned the basics of how to use git, code beginning html and basic css.
